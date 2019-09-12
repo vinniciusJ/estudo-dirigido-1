@@ -53,10 +53,6 @@ void media( vector <int> lista){
     media = media/lista.size();
     cout << "MEDIA = " << media << endl;
 }
-void  soma_media(vector<int> lista) {
-    somatorio(lista);
-    media(lista);
-}
 void media_sem_negativos (vector <int> lista){
     for(int i = 0; i<lista.size(); i++){
         if(lista[i] < 0){
@@ -129,7 +125,8 @@ int main () {
                 media(lista_numeros);
                 break;
             case '3':
-                soma_media(lista_numeros);
+                somatorio(lista_numeros);
+                media(lista_numeros);
                 break;
             case '4':
                 media_sem_negativos(lista_numeros);

@@ -81,8 +81,8 @@ void organizar(vector <int> lista) {
 
     sort(begin(lista), end(lista));
     cout << "Elementos da lista em ordem crescente: {";
-    for (int i = 1; i < lista.size() -1 ; i++) {
-        if (i < lista.size()) {
+    for (int i = 0; i < lista.size()  ; i++) {
+        if (i < lista.size()-1) {
             cout << lista[i] << ",";
         } else {
             cout << lista[i] << "}" << endl;

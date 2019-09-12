@@ -107,11 +107,12 @@ int main () {
 
     while (true){
 
-        cout << setw(50) << "ESCOLHA UMA OPÇÃO:" << endl << endl;
-        cout << "[0] SAIR" << setw(25) << endl;
-        cout << "[1] SOMA DOS NUMEROS DIGITADOS" << setw(16) << "|"<< setw(25) <<  "[4] MEDIA SEM OS VALORES NEGATIVOS" << endl;
-        cout << "[2] MEDIA DOS NUMEROS DIGITADOS" << setw(15) << "|" << setw(25) << "[5] MEDIA E SOMATORIO SEM OS VALORES REPETIDOS" << endl;
-        cout << "[3] MEDIA E SOMATORIO" << setw(25) << "|" << setw(25)<<"[6] NUMEROS EM ORDEM CRESCENTE" << endl;
+         cout << setw(50) << "ESCOLHA UMA OPÇÃO:" << endl << endl;
+        cout << "[0] SAIR" << setw(38) << "|" << setw(25) << "[4] MEDIA SEM OS VALORES NEGATIVOS" << endl;
+        cout << "[1] SOMA DOS NUMEROS DIGITADOS" << setw(16) << "|"<< setw(25) <<  "[5] MEDIA E SOMATORIO SEM OS VALORES REPETIDOS" << endl;
+        cout << "[2] MEDIA DOS NUMEROS DIGITADOS" << setw(15) << "|" << setw(25) << "[6] NUMEROS EM ORDEM CRESCENTE"<< endl;
+        cout << "[3] MEDIA E SOMATORIO" << setw(25) << "|" << setw(25)<<"[7] DIGITAR NOVOS VALORES" << endl;
+        cout << endl;
 
         tecla1 = getch();
 

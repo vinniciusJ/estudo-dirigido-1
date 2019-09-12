@@ -43,7 +43,7 @@ void somatorio( vector <int> lista){
     for(int n: lista){
         soma = soma + n;
     }
-    cout << endl << "SOMA DOS ELEMENTOS = " << soma << endl;
+    cout << "SOMA DOS ELEMENTOS = " << soma << endl;
 }
 void media( vector <int> lista){
     double media = 0;
@@ -145,6 +145,7 @@ int main () {
         if (tecla1 == '0'){
             exit(0);
         }
+        cout << endl;
         system("pause");
         system("cls");
     }

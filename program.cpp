@@ -118,6 +118,7 @@ int main () {
 
         switch (tecla1) {
             case '0':
+                exit(0);
                 break;
             case '1':
                 somatorio(lista_numeros);
@@ -141,9 +142,6 @@ int main () {
             case '7':
                 lista_numeros = numeros(lista_numeros);
                 break;
-        }
-        if (tecla1 == '0'){
-            exit(0);
         }
         cout << endl;
         system("pause");

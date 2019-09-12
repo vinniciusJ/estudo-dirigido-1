@@ -3,4 +3,4 @@
 ##
 ## VERSÃO WINDOWS
 ##
-## By Vinicius and Dyogo
+## By Vinicius, Dyogo and Vinicius Fontana

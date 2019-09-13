@@ -70,6 +70,7 @@ void media_somatorio_repetidos (vector <int> lista){
              if(lista2[i] == lista2[j]){
                  if(i != j){
                      lista[i] = 0;
+                     lista[j] = 0;
                  }
              }
          }

@@ -7,7 +7,7 @@
 #include <locale.h>
 
 using namespace std;
-
+ //teste
 bool verificacao (char executar){
 
     while(executar != 'S' && executar != 'N'){
